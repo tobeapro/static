@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c462a"],{"3b38":function(e,n,o){"use strict";o.r(n);var c,a,t=o("2b0e"),u={key:"这是一个普通的属性值"},r={name:"observableDemo",render:function(e){return e("h3",{class:"common-wrap"},"一秒后会可响应的对象属性会被修改：".concat(u.key))},created:function(){t["a"].observable(u),window.setTimeout((function(){u.key="这是一个响应后的属性值"}),1e3)}},s=r,l=o("2877"),b=Object(l["a"])(s,c,a,!1,null,null,null);n["default"]=b.exports}}]);
-//# sourceMappingURL=chunk-2d0c462a.55e4045c.js.map
